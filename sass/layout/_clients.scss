@@ -1,0 +1,55 @@
+.clients-title {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--sections-titles-color);
+}
+
+.clients-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clients-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: solid 1px #AFB1B8;
+    border-radius: 4px;
+    background-color: var(--our-team-cards-background-color);
+    color: #AFB1B8;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-list-link:hover,
+.clients-list-link:focus {
+    border: solid 1px var(--accent-color);
+    color: var(--accent-color);
+}
+
+.clients-list-icon {
+    fill: currentColor;
+}
+
+.clients-list-link:hover .clients-list-icon,
+.clients-list-link:focus .clients-list-icon {
+    fill: currentColor;
+}
+
+.clients-list-item:not(:nth-child(6n)) {
+    margin-right: 30px;
+}
+
+.clients-list-item:not(:nth-last-child(-n+6)) {
+    margin-bottom: 30px;
+}
+
+.clients-list-item {
+    flex-basis: calc((100% - 150px) / 6)
+}

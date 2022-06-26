@@ -1,0 +1,25 @@
+.hero-section {
+    background-color: var(--hero-background-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    max-width: 1600px;
+}
+
+.hero-title {
+    font-family: var(--primary-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--hero-title-color);
+    margin: 0 auto 30px auto;
+    width: 700px;
+}
