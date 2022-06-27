@@ -1,18 +1,14 @@
-.logo-light-them {
+.logo_them_light {
     margin-right: 90px;
     font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    @include font(26px, 700, 31px);
     letter-spacing: 0.03em;
     color: var(--logo-light-them-color);
 }
 
-.logo-dark-them {
+.logo_them_dark {
     font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    @include font(26px, 700, 31px);
     letter-spacing: 0.03em;
     color: var(--logo-dark-them-color);
 }
