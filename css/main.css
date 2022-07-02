@@ -488,13 +488,18 @@ ol {
   padding-bottom: 200px;
   margin: 0 auto;
   text-align: center;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/bg.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-section/hero-bg-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   max-width: 1600px;
 }
 
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../images/hero-section/hero-bg-desktop@2x.jpg);
+  }
+}
 .hero__title {
   font-family: var(--primary-font);
   font-weight: 900;
